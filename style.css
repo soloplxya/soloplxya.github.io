@@ -274,8 +274,9 @@ header {
 /* My Projects section styling */ 
 .current-projects {
     background-color: var(--clr-light); 
-    background-size: cover; 
-    color: black
+    color: black;
+    display: flex;
+    flex-direction: column;
 }
 
 .section__title--current-projects {
@@ -283,6 +284,7 @@ header {
     position: relative; 
     text-align: center; 
 }
+
 
 .section__title--current-projects::after{
     content: ''; 
@@ -292,6 +294,15 @@ header {
     margin: 0.5em auto 1em; 
     background-color:darkblue;
     opacity: 0.5; 
+}
+
+.centered--list {
+    width: 30%;
+    margin: auto;
+}
+
+.section__subtitle--current-projects {
+    text-align: center;
 }
 
 @media (min-width: 800px) {
