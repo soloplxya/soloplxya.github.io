@@ -301,6 +301,11 @@ header {
     margin: auto;
 }
 
+li {
+    margin-top: 0.5em auto 1em;
+    margin-bottom: 0.5em auto 1em;
+}
+
 .section__subtitle--current-projects {
     text-align: center;
 }
