@@ -275,11 +275,11 @@ header {
 .current-projects {
     background-color: var(--clr-light); 
     background-size: cover; 
-    color: aqua
+    color: black
 }
 
 .section__title--current-projects {
-    color: var(--clr-light); 
+    color: var(--clr-dark); 
     position: relative; 
     text-align: center; 
 }
@@ -290,7 +290,7 @@ header {
     width: 2em; 
     height: 1px; 
     margin: 0.5em auto 1em; 
-    background-color: beige;
+    background-color:darkblue;
     opacity: 0.5; 
 }
 
