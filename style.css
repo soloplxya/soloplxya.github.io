@@ -251,13 +251,22 @@ header {
 
 .current-projects {
     background-color: var(--clr-light); 
-    background-position:center
+    background-position:center; 
+    background-size: cover; 
+    color: aqua
+
 }
 
 .section__title--about-me {
     color: var(--clr-accent);
     position: relative;
     text-align: center;
+}
+
+.section__title--current-projects {
+    color: var(--clr-light); 
+    position: relative; 
+    text-align: center; 
 }
 
 .section__title--about-me::after {
