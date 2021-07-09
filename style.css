@@ -242,6 +242,8 @@ header {
 }
 
 
+/* about-me section styling */ 
+
 .about-me {
     background-color: var(--clr-dark);
     background-image: url(background.gif);
@@ -249,13 +251,7 @@ header {
     color: var(--clr-light);
 }
 
-.current-projects {
-    background-color: var(--clr-light); 
-    background-position:center; 
-    background-size: cover; 
-    color: aqua
 
-}
 
 .section__title--about-me {
     color: var(--clr-accent);
@@ -263,11 +259,7 @@ header {
     text-align: center;
 }
 
-.section__title--current-projects {
-    color: var(--clr-light); 
-    position: relative; 
-    text-align: center; 
-}
+
 
 .section__title--about-me::after {
     content: '';
@@ -277,6 +269,29 @@ header {
     margin: 0.5em auto 1em;
     background: var(--clr-light);
     opacity: 0.25;
+}
+
+/* My Projects section styling */ 
+.current-projects {
+    background-color: var(--clr-light); 
+    background-size: cover; 
+    color: aqua
+}
+
+.section__title--current-projects {
+    color: var(--clr-light); 
+    position: relative; 
+    text-align: center; 
+}
+
+.section__title--current-projects::after{
+    content: ''; 
+    display: block; 
+    width: 2em; 
+    height: 1px; 
+    margin: 0.5em auto 1em; 
+    background-color: beige;
+    opacity: 0.5; 
 }
 
 @media (min-width: 800px) {
