@@ -118,6 +118,10 @@ header {
     transition: transform 250ms cubic-bezier(.5, 0, .5, 1);
 }
 
+.nav__item a {
+    text-decoration: none; 
+}
+
 .nav__list {
     list-style: none;
     display: flex;
