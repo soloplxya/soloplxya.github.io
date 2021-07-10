@@ -247,7 +247,7 @@ header {
 .about-me {
     background-color: var(--clr-dark);
     background-image: url(background.gif);
-    background-size: cover;
+    /* background-size: cover; */
     color: var(--clr-light);
 }
 
@@ -312,14 +312,60 @@ li {
 
 @media (min-width: 800px) {
     .about-me {
-        max-width: 1000px;
+        max-width: 1500px;
         margin:  auto;
     }
     
     
 }
 
+/* button */ 
+#button_div {
+    text-align: center;
+}
 
+
+#projects_btn a{
+    text-decoration: none;
+    color: white; 
+}
+
+.transparent {
+    -webkit-touch-callout: none;
+      -webkit-user-select: none;
+       -khtml-user-select: none;
+         -moz-user-select: none;
+          -ms-user-select: none;
+              user-select: none;
+          -webkit-tap-highlight-color: transparent;
+}
+
+#projects_btn {
+    width: 150px;
+	height: 50px;
+	cursor: pointer;
+	border: none;
+	font-family: var(--ff-primary);
+	color: rgba(255,255,255,0.5);
+	font-size: 20px;
+	border-radius: 4px;
+	box-shadow: inset 0px 3px 5px rgba(255,255,255,0.5), 0px 0px 10px rgba(0,0,0,0.15);
+	background: rgb(2,0,36);
+    background: linear-gradient(45deg, rgba(2,0,36,0) 5%, rgba(255,255,255,.5) 6%, rgba(255,255,255,0) 9%, rgba(255,255,255,.5) 10%, rgba(255,255,255,0) 17%, rgba(255,255,255,.5) 19%, rgba(255,255,255,0) 21%);
+	background-size: 150%;
+	background-position: right;
+	transition: 1s;
+}
+
+#projects_btn:hover {
+    background-position: left;
+	color: white;
+	box-shadow: inset 0px 3px 5px rgba(255,255,255,1), 0px 0px 10px rgba(0,0,0,0.25);
+}
+
+#projects_btn:focus{ 
+    outline: none;
+}
 /* footer */
 
 .footer {
