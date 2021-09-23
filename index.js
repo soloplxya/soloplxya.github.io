@@ -10,3 +10,6 @@ navLinks.forEach(link => {
         document.body.classList.remove('nav-open');
     })
 })
+
+var x = document.getElementById("myAudio"); 
+x.play(); 
